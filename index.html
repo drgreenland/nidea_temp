@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIDEA.DEV - AI-Powered Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center everything horizontally */
+            justify-content: center; /* Center everything vertically */
+            min-height: 100vh; /* Full viewport height */
+        }
+        header {
+            text-align: center; /* Center text inside the header */
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center all child elements horizontally */
+            justify-content: center; /* Center all child elements vertically */
+            text-align: center; /* Center text */
+            padding: 20px;
+        }
+        .logo-placeholder {
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 450px; /* Adjusted for 3x size */
+            height: 450px; /* Adjusted for 3x size */
+            object-fit: contain; /* Maintain aspect ratio */
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px; /* Consistent max-width for layout */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center form elements horizontally */
+        }
+        input[type="email"] {
+            width: calc(100% - 20px); /* Full width with padding adjustment */
+            max-width: 360px; /* Optional max-width for larger screens */
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #4CAF50; /* Green border to match theme */
+            box-sizing: border-box; /* Ensure padding doesn't affect width */
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NIDEA.DEV</h1>
+    <p>AI-Powered Development in Python, Xcode, and Django</p>
+</header>
+
+<main>
+    <!-- Logo Section -->
+    <div class="logo-placeholder">
+        <img src="./NIDEA_Logo.png" alt="NIDEA Logo" class="logo">
+    </div>
+
+    <h2>Stay Updated!</h2>
+    <p>Sign up to receive updates about our latest projects and services.</p>
+
+    <!-- Email Subscription Form -->
+    <form action="mailto:nidea.dev@gmail.com" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</main>
+
+</body>
+</html>
